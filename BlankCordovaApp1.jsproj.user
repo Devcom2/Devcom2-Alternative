@@ -3,6 +3,7 @@
   <PropertyGroup>
     <ReferenceCachePath>C:\Users\Dieter\AppData\Local\Temp\lv2ioy2c_BlankCordovaApp1_refcache</ReferenceCachePath>
     <ShowAllFiles>true</ShowAllFiles>
+    <AutoRefresh>true</AutoRefresh>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Android'">
     <DebuggerFlavor>RippleNexusS</DebuggerFlavor>

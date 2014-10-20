@@ -101,6 +101,13 @@
     <Content Include="images\background2.jpg" />
     <Content Include="images\Menu-Icon.png" />
     <Content Include="images\Refresh-Icon.png" />
+    <Content Include="img\hongkiat-lim.png" />
+    <Content Include="img\nav-btn%402x.png" />
+    <Content Include="img\nav-btn.png" />
+    <Content Include="img\pencilman.jpg" />
+    <Content Include="img\preloader.gif" />
+    <Content Include="img\tabbar-solid-bg%402x.png" />
+    <Content Include="img\tabbar-solid-bg.png" />
     <Content Include="merges\android\scripts\android2.3-jscompat.js" />
     <Content Include="merges\android\scripts\platformOverrides.js" />
     <Folder Include="merges\ios\" />
@@ -121,6 +128,9 @@
       <SubType>Designer</SubType>
     </Content>
     <Content Include="index.html" />
+    <Content Include="navmenu\responsive.css" />
+    <Content Include="navmenu\script.js" />
+    <Content Include="navmenu\style.css" />
     <Content Include="scripts\index.js" />
     <Content Include="scripts\platformOverrides.js" />
     <Content Include="css\index.css" />
