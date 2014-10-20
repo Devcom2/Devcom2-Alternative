@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>BlankCordovaApp1</title>
+
+    <!-- BlankCordovaApp1 references -->
+    <link href="css/index.css" rel="stylesheet" />
+    <link rel="stylesheet" href="scripts/stylesheets/jquery.sidr.light.css">
+</head>
+<body>
+    <a id="simple-menu" href="#sidr">Toggle menu</a>
+
+<div id="sidr">
+    <!-- Your content -->
+    <img src="http://my.devcom2.be/images/logo.png" style="width: 100%;" />
+    <ul>
+        <li><a href="#">List 1</a></li>
+        <li class="active"><a href="#">List 2</a></li>
+        <li><a href="#">List 3</a></li>
+    </ul>
+</div>
+    <div class="menu">
+        fds<br />
+        dsfsdf
+    </div>
+    <script src="cordova.js"></script>
+    <script src="scripts/platformOverrides.js"></script>
+
+    <script src="scripts/index.js"></script>
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <!-- Include the Sidr JS -->
+    <script>
+    $(document).ready(function () {
+        $('#simple-menu').sidr();
+    });
+    </script>
+    <script src="scripts/jquery.sidr.min.js"></script>
+</body>
+</html>
