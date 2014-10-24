@@ -34,24 +34,28 @@
     @media only screen 
     and (min-width : 321px) {
      .Info{
-         width: 45%;
+         width: 94%;
          margin-left: 3%;
-         float: left;
+         clear: both;
          text-align: center;
      }
 
      .Info img{
-         width: 100%;
+         width: 48%;
+         float: left;
      }
 
      .Info h1{
          font-weight: bold;
+         width: 48%;
+         float: left;
+
      }
 
      .LoginBox{
-         width: 45%;
-         margin-left: 5%;
-         float: left;
+         width: 98%;
+         margin-left: 1%;
+         clear: both;
      }
 
      .LoginBox table tr:first-child td{
@@ -98,6 +102,32 @@
     and (max-device-width : 1024px) 
     and (orientation : landscape) {
     /* Styles */
+     .Info{
+         width: 45%;
+         margin-left: 3%;
+         float: left;
+         text-align: center;
+     }
+
+     .Info img{
+         width: 100%;
+     }
+
+     .Info h1{
+         font-weight: bold;
+     }
+
+     .LoginBox{
+         width: 45%;
+         margin-left: 5%;
+         float: left;
+     }
+
+     .LoginBox table tr:first-child td{
+         text-align: center;
+         font-size: 1.5em;
+         border-bottom: 2px solid #D5DADE;
+     }
     }
 
     /* iPads (portrait) ----------- */
@@ -117,7 +147,7 @@
         <h2>Your High-Dev solution</h2>
     </div>
     <div class="LoginBox">
-        <table>
+        <table style="width: 100%;">
             <tr>
                 <td colspan="2"><strong>Log in with your credentials</strong></td>
             </tr>
