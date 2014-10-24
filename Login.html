@@ -1,0 +1,152 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <style>
+    body{
+        background: url('http://my.devcon2.be/Images/background2.jpg') repeat;
+        font-family: Tahoma,'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+        .Info {
+            background-color: rgba(243, 243, 243, 0.55);
+            border: 3px solid #D5DADE;
+            border-radius: 25px;
+        }
+
+        input{
+            width: 90%;
+            border: 3px solid #D5DADE;
+            border-radius: 5px;
+        }
+
+        .LoginTr td table{
+            background-color: rgba(243, 243, 243, 0.55);
+            border-radius: 10px;
+            width: 100%;
+        }
+
+        table{
+            border-collapse: collapse;
+        }
+
+        /* Smartphones (landscape) ----------- */
+    @media only screen 
+    and (min-width : 321px) {
+     .Info{
+         width: 45%;
+         margin-left: 3%;
+         float: left;
+         text-align: center;
+     }
+
+     .Info img{
+         width: 100%;
+     }
+
+     .Info h1{
+         font-weight: bold;
+     }
+
+     .LoginBox{
+         width: 45%;
+         margin-left: 5%;
+         float: left;
+     }
+
+     .LoginBox table tr:first-child td{
+         text-align: center;
+         font-size: 1.5em;
+         border-bottom: 2px solid #D5DADE;
+     }
+    }
+
+    /* Smartphones (portrait) ----------- */
+    @media only screen 
+    and (max-width : 320px) {
+     .Info{
+         width: 94%;
+         margin-left: 3%;
+         clear: both;
+         text-align: center;
+     }
+
+     .Info img{
+         width: 100%;
+     }
+
+     .Info h1{
+         font-weight: bold;
+     }
+
+     .LoginBox{
+         width: 94%;
+         margin-left: 3%;
+         clear: both;
+     }
+
+     .LoginBox table tr:first-child td{
+         text-align: center;
+         font-size: 1.5em;
+         border-bottom: 2px solid #D5DADE;
+     }
+    }
+
+    /* iPads (landscape) ----------- */
+    @media only screen 
+    and (min-device-width : 768px) 
+    and (max-device-width : 1024px) 
+    and (orientation : landscape) {
+    /* Styles */
+    }
+
+    /* iPads (portrait) ----------- */
+    @media only screen 
+    and (min-device-width : 768px) 
+    and (max-device-width : 1024px) 
+    and (orientation : portrait) {
+    /* Styles */
+    }
+
+    </style>
+</head>
+<body>
+    <div class="Info">
+        <img src="http://www.devcom2.be/images/logo.png" />
+        <h1>Devcom 2</h1>
+        <h2>Your High-Dev solution</h2>
+    </div>
+    <div class="LoginBox">
+        <table>
+            <tr>
+                <td colspan="2"><strong>Log in with your credentials</strong></td>
+            </tr>
+            <tr class="LoginTr">
+                <td>
+                    <table>
+                        <tr>
+                            <td><img src="images/mail.png" /></td>
+                            <td>
+                                <input type="text" value="Enter your email"
+                                       onfocus="this.value = '';"
+                                       onblur="if (this.value == '') {this.value = 'Enter your email';}"
+                                       id="txtUserName" name="txtUserName">
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr class="LoginTr">
+                <td>
+                    <table>
+                        <tr>
+                            <td><img src="images/lock.png" /></td>
+                            <td><input type="password" id="txtPassword" name="txtPassword"></td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
