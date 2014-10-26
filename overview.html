@@ -1,0 +1,79 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <style>
+        table{
+            width: 100%;
+        }
+
+        body{
+            margin: 0;
+            background: url('http://my.devcon2.be/Images/background2.jpg') repeat;
+            font-family: Tahoma,'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+
+        .Webhosting{
+            background-image: url("images/webhosting.png");
+            background-position: center center;
+            background-repeat: no-repeat;
+        }
+
+        /* Smartphones (landscape) ----------- */
+        @media only screen 
+        and (min-width : 321px) {
+            .OptionContainer {
+                width: 98%;
+                margin-left: 1%;
+                background-color: #BADAE3;
+                height: 70px;
+            }
+            .OptionContainerHalf {
+                width: 48%;
+                float: left;
+                margin-left: 1%;
+                background-color: #B8E8F5;
+                height: 70px;
+            }
+        }
+
+        /* Smartphones (portrait) ----------- */
+        @media only screen and (max-width : 320px) {
+            .OptionContainer {
+                width: 98%;
+                margin-left: 1%;
+                background-color: #BADAE3;
+                height: 70px;
+            }
+            .OptionContainerHalf {
+                width: 48%;
+                float: left;
+                margin-left: 1%;
+                background-color: #B8E8F5;
+                height: 70px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <td>
+                <div class="OptionContainer Webhosting">
+                    Webhosting
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="OptionContainerHalf Webhosting">
+                    Webhosting
+                </div>
+                <div class="OptionContainerHalf Webhosting">
+                    Webhosting
+                </div>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
