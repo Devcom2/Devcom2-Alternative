@@ -7,6 +7,8 @@
             width: 100%;
             background-color: rgba(243, 243, 243, 0.55);
             min-height: 100%;
+            border-spacing: 0px;
+            border-collapse: collapse;
         }
 
         body {
@@ -29,8 +31,29 @@
             height: 100%;
         }
 
+        .Webhosting{
+            background: url('images/webhostingBanner.jpg');
+            background-size: 100% 100%;
+        }
+
+        .Domainnames{
+            background: url('images/domainnamesBanner.jpg');
+            background-size: 100% 100%;
+        }
+
+        .MobileApps{
+            background: url('images/website-design-banner.jpg');
+            background-size: 100% 100%;
+        }
+
         /* Smartphones (landscape) ----------- */
         @media only screen and (min-width : 321px) {
+            #tblOverView tr td {
+                padding: 0px;
+                border-collapse: collapse;
+                border-bottom: 2px solid black;
+            }
+
             #tblOverView tr td div{
                 min-height: 75px;
                 background-color: red;
@@ -47,13 +70,13 @@
     <div class="body">
         <table id="tblOverView">
             <tr>
-                <td><div>Webhosting</div></td>
+                <td><div class="Webhosting">Webhosting</div></td>
             </tr>
             <tr>
-                <td><div>Domain Names</div></td>
+                <td><div class="Domainnames">Domain Names</div></td>
             </tr>
             <tr>
-                <td><div>Mobile Apps</div></td>
+                <td><div class="MobileApps">Mobile Apps</div></td>
             </tr>
             <tr>
                 <td><div>Basic Email</div></td>
