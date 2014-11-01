@@ -12,7 +12,11 @@
 
     <script type="text/javascript">
     $(function () {
-        $('nav#menu').mmenu();
+        $('nav#menu').mmenu({
+            counters: true,
+            add: true,
+            content: "(c) 2014"
+        });
     });
     </script>
     <style>
@@ -93,34 +97,101 @@
 </head>
 <body>
     <div id="page">
-        <div class="header">
+        <!--<div class="header">
             <a href="#menu">qsdqsdqs</a>
             Demo
-        </div>
+        </div>-->
         <nav id="menu">
             <ul>
                 <li><a href="#">Home</a></li>
                 <li>
-                    <a href="#about">About us</a>
+                    <a href="#">Webhosting</a>
                     <ul>
-                        <li><a href="#about/history">History</a></li>
-                        <li>
-                            <a href="#about/team">The team</a>
-                            <ul>
-                                <li><a href="#about/team/management">Management</a></li>
-                                <li><a href="#about/team/sales">Sales</a></li>
-                                <li><a href="#about/team/development">Development</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="#about/address">Our address</a></li>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">New</a></li>
+                        <li><a href="#">Overview</a></li>
+                        <li><a href="#">How to use</a></li>
                     </ul>
                 </li>
-                <li><a href="#contact">Contact</a></li>
+                <li>
+                    <a href="#">Domain Names</a>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">New</a></li>
+                        <li><a href="#">Overview</a></li>
+                        <li><a href="#">How to use</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">Basic Email</a>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">New</a></li>
+                        <li><a href="#">Overview</a></li>
+                        <li><a href="#">How to use</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">Exchange Email</a>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">New</a></li>
+                        <li><a href="#">Overview</a></li>
+                        <li><a href="#">How to use</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">Databases</a>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">New</a></li>
+                        <li><a href="#">Overview</a></li>
+                        <li><a href="#">How to use</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">Mobile Apps</a>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">New</a></li>
+                        <li><a href="#">Overview</a></li>
+                        <li><a href="#">How to use</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">User Details</a>
+                    <ul>
+                        <li><a href="#">Details</a></li>
+                        <li><a href="#">Order Overview</a></li>
+                        <li><a href="#">Financial information</a></li>
+                    </ul>
+                </li>
             </ul>
         </nav>
     </div>
     <div class="body">
         <table id="tblOverView">
+            <tr>
+                <td>
+                    <header>
+                        <table style="width: 100%;">
+                            <tr>
+                                <td style="width: 30px;">
+                                    <a href="#menu">
+                                        <img src="images/Menu-Icon.png" style="width: 40px;" />
+                                    </a>
+                                </td>
+                                <td style="text-align: center;">Welcome</td>
+                                <td style="width: 45px;">
+                                    <a href="#menu">
+                                        <img src="images/Refresh-Icon.png" style="width: 40px;" />
+                                    </a>
+                                </td>
+                            </tr>
+                        </table>
+                    </header>
+                </td>
+            </tr>
             <tr>
                 <td>
                     <div>
