@@ -10,18 +10,17 @@
   <content src="index.html" />
   <access origin="*" />
   <vs:features />
-  <gap:splash src="splash.png" />
-  <icon src="splash.png" />
-  
-  <gap:splash src="ldpi.png" gap:platform="android" gap:qualifier="ldpi" />
-  <gap:splash src="mdpi.png" gap:platform="android" gap:qualifier="mdpi" />
-  <gap:splash src="hdpi.png" gap:platform="android" gap:qualifier="hdpi" />
-  <gap:splash src="xhdpi.png" gap:platform="android" gap:qualifier="xhdpi" />
-  <gap:splash src="fr-xhdpi.png" gap:platform="android" gap:qualifier="fr-xhdpi" />
-  <gap:splash src="portrait-xxhdpi.png" gap:platform="android" gap:qualifier="port-xxhdpi" />
-  <gap:splash src="landscape-xxhdpi.png" gap:platform="android" gap:qualifier="land-xxhdpi" />
 
+   <!-- Define app splash screen for each platform. -->
+<gap:splash src="res/screens/android/screen-ldpi-portrait.png" gap:platform="android" gap:qualifier="port-ldpi" />
+<gap:splash src="res/screens/android/screen-mdpi-portrait.png" gap:platform="android" gap:qualifier="port-mdpi" />
+<gap:splash src="res/screens/android/screen-hdpi-portrait.png" gap:platform="android" gap:qualifier="port-hdpi" />
+<gap:splash src="res/screens/android/screen-xhdpi-portrait.png" gap:platform="android" gap:qualifier="port-xhdpi" />
 
-
+<icon src="icon.png" />
+<icon src="res/icons/android/icon-36-ldpi.png" gap:platform="android" gap:qualifier="ldpi" />
+<icon src="res/icons/android/icon-48-mdpi.png" gap:platform="android" gap:qualifier="mdpi" />
+<icon src="res/icons/android/icon-72-hdpi.png" gap:platform="android" gap:qualifier="hdpi" />
+<icon src="res/icons/android/icon-96-xhdpi.png" gap:platform="android" gap:qualifier="xhdpi" />
 
 </widget>
