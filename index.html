@@ -181,8 +181,8 @@
     <script>
         function sendRequest() {
             var pass = $("#txtPassword").val();
-            var serviceUrl = 'http://devcom2.api.mymobileapp.be/api/User?UserName=' + $("#txtUserName").val() + '&Password=' + $("#txtPassword").val() + '&return=json';
-            //var serviceUrl = 'http://localhost:1200/api/User?UserName=' + $("#txtUserName").val() + '&Password=' + $("#txtPassword").val() + '&return=json';-->
+            //var serviceUrl = 'http://devcom2.api.mymobileapp.be/api/User?UserName=' + $("#txtUserName").val() + '&Password=' + $("#txtPassword").val() + '&return=json';
+            var serviceUrl = 'http://devcom2.be/wcf/Users.svc/userlogin/' + $("#txtUserName").val() + '/' + $("#txtPassword").val();
             $.ajax({
                 type: "POST",
                 url: serviceUrl
