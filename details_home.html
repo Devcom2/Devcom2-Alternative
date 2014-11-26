@@ -16,10 +16,9 @@
 
                 //showitem(count);
 
-                var serviceUrl = 'http://localhost:21825/Hostings.svc/List/' + localStorage.getItem("Session");
+                var serviceUrl = 'http://devcom2.be/wcf/Hostings.svc/list/' + localStorage.getItem('Session');
                 $.getJSON(serviceUrl, function (data) {
                     var items = [];
-                    alert(localStorage.getItem("Session"));
                     for (var i = 0; i < data.length; i++) {
                         //var object = '<div class="ListItem ' + (i + 1) + '"><a href="hosting_details.html?param=' + data[i].DisplayName + '" ><i><img src="http://my.devcom2.be/Images/Icons/WHITE/Webhosting.png" alt="" /></i> <span>' + data[i].DisplayName + '</span><div class="clear"></div></a></div>';
                         var object = '<tr><td><div><table class="tblProduct"><tr><td rowspan="2" style="width: 70px;"><img src="images/Webhosting.png" /></td><td><strong>' + data[i].DisplayName + '</strong></td></tr><tr><td>Like a hotel for your website(s)</td></tr></table></div></td></tr>';
